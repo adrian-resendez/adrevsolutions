@@ -1,0 +1,85 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    background-color: #333; /* Dark background */
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+  }
+  
+  .navbar a:hover {
+    background-color: #575757; /* Hover effect */
+  }
+  
+  /* Dropdown Styles */
+  .dropdown {
+    position: relative;  /* This makes it the reference point for the dropdown */
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .dropbtn:hover {
+    background-color: #575757; /* Darker on hover */
+  }
+  
+  /* Dropdown Content */
+  .dropdown-content {
+    display: none;  /* Hidden by default */
+    position: absolute;  /* Absolute positioning */
+    top: 100%;  /* Position below the dropdown button */
+    left: 0;  /* Align with the left edge of the button */
+    background-color: #333;  /* Same dark background */
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 10;  /* Ensure it's above other content */
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Hover to Show Dropdown */
+  .dropdown:hover .dropdown-content {
+    display: block;  /* Show when hovering over dropdown */
+  }
+  
+  /* Dropdown Links */
+  .dropdown-content a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #575757;  /* Hover effect on dropdown items */
+  }
+  
+  /* LinkedIn Button */
+  .linkedin-btn {
+    background-color: #0077b5; /* LinkedIn brand color */
+  }
+  
+  .linkedin-btn:hover {
+    background-color: #005582; /* Darker shade for hover */
+  }
+  

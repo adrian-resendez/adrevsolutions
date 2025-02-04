@@ -1,0 +1,79 @@
+.home-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Header Section */
+  .header {
+    position: relative;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .tagline {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .sub-tagline {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 20px;
+  }
+  
+  .cta-button {
+    background: #ff5733;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background: #e64a1f;
+  }
+  
+  /* Section Styling */
+  .about-section, .marketing-section, .approach-section, .contact-section {
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #222;
+    padding: 30px;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .cookie-button {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .cookie-button:hover {
+    background: #218838;
+  }
+  

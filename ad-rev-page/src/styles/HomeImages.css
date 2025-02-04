@@ -1,0 +1,36 @@
+.home-images {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Large Background Image for Header */
+/* Large Background Image for Header */
+/* Large Background Image for Header */
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/adrevimg1.webp'); /* Corrected path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .header-background {
+      height: 80vh;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-background {
+      height: 60vh;
+    }
+  }
+  
